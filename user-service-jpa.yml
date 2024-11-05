@@ -75,7 +75,9 @@ management:
 
 #jwt 토큰의 비밀번호 토큰의 유효시간
 token:
-  expiration_time: 86400000
+  access_Token_expiration_time: 86400 #하루
+  refresh_Token_expiration_time: 2592000 #한달
+
   secret: abcdefghijklmnopqrstuvwxyz0123456789011
 
 gateway:
